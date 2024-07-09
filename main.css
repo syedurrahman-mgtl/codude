@@ -890,9 +890,9 @@
     border: 16px solid rgb(242,122,34);
     border-radius: 25%;
     background-color: #fff;
-    margin: -50px;
+    margin: -80px;
     transform: rotate(45deg);
-    animation: spin 4s linear infinite;
+    animation: spin 4s ease-in-out infinite;
   }
   
   .square:nth-child(2) {
@@ -918,9 +918,14 @@
   
   @keyframes spin {
     0% {
-      transform: rotate(0deg);
+      transform: rotate(45deg);
+    }
+    50% {
+        transform: rotate(225deg);
+        margin: -50px;
     }
     100% {
-      transform: rotate(360deg);
+        transform: rotate(45deg);
+        margin: -80px;
     }
   }
