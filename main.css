@@ -892,7 +892,7 @@
     background-color: #fff;
     margin: -80px;
     transform: rotate(45deg);
-    animation: spin 3s ease-in-out infinite;
+    animation: spin 2s ease-in-out infinite;
   }
   
   .square:nth-child(2) {
